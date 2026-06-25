@@ -47,7 +47,7 @@ func main() {
 			fmt.Println("Введите индекс сотрудника для удаления")
 			fmt.Scan(&deleteNum)
 			for deleteNum>=size || deleteNum<0 {
-				fmt.Println("Введите индекс сотрудника для удаления")
+				fmt.Println("Введите индекс сотрудника для удаления, меньше 512")
 				fmt.Scan(&deleteNum)
 			}
 			
